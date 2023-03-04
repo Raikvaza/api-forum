@@ -1,0 +1,14 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.comments-header{
+    font-size: 2rem;
+    text-align: center;
+    --x: 50%;
+	--y: 50%;
+ 
+    background: radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

@@ -1,0 +1,98 @@
+.button {
+  --x: 50%;
+  --y: 50%;
+  
+  width: 100%;
+  height: 100%;
+  appearance: none;
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background: linear-gradient(#000, #000) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+}
+
+.header-container {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.nav {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav a{
+  width: 100%;
+  height: 80%;
+}
+
+.title{
+  width: 33%;
+  max-height: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+.title>h1{
+  --x: 50%;
+	--y: 50%;
+ 
+  border: 2px solid  transparent;
+	background: radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.authorization{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.authorization a{
+  width: 20%;
+  height: 80%;
+}
+
+@media (max-width: 1024px) {
+  .header-container {
+    height: auto;
+  }
+  .nav, .title, .authorization {
+    width: 100%;
+  }
+  .nav a, .authorization a {
+    width: auto;
+    height: 100%;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav, .title, .authorization {
+    width: 100%;
+  }
+  .nav a, .authorization a {
+    width: auto;
+    height: 100%;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}

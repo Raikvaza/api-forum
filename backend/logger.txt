@@ -1,0 +1,162 @@
+2023/02/25 14:12:08 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/app/app.go, line: 26): Successfully Initiated the Data Base
+2023/02/25 14:12:08 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/app/app.go, line: 31): Tables have been created
+2023/02/25 14:12:08 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/app/app.go, line: 35): NewApiServer has been created
+2023/02/25 14:12:08 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/Server.go, line: 40): Starting the server at port localhost:8080
+2023/02/25 14:24:23 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:25:52 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:25:57 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:29:36 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:29:37 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:29:43 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:29:44 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:29:45 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:29:51 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:34:01 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:47:18 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:47:29 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignUp.go, line: 38): Successfully created a user
+2023/02/25 14:47:44 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/database/execute/createUser.go, line: 20): UNIQUE constraint failed: user.username
+2023/02/25 14:50:39 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignUp.go, line: 38): Successfully created a user
+2023/02/25 14:50:39 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/database/execute/createUser.go, line: 20): UNIQUE constraint failed: user.username
+2023/02/25 14:50:42 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 0461ac82-da71-4f51-96d8-e2e080de1f53
+2023/02/25 14:50:42 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:50:42 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 0461ac82-da71-4f51-96d8-e2e080de1f53, just logged in...
+2023/02/25 14:50:42 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:50:42 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 0461ac82-da71-4f51-96d8-e2e080de1f53 ended session
+2023/02/25 14:50:42 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 0461ac82-da71-4f51-96d8-e2e080de1f53 ended session
+2023/02/25 14:50:42 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:50:42 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:50:42 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:50:50 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 94ac8dfd-dcb6-4d6d-b858-cd7d4cf0fe87
+2023/02/25 14:50:50 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:50:50 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 94ac8dfd-dcb6-4d6d-b858-cd7d4cf0fe87, just logged in...
+2023/02/25 14:50:50 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:50:50 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 94ac8dfd-dcb6-4d6d-b858-cd7d4cf0fe87 ended session
+2023/02/25 14:50:50 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 94ac8dfd-dcb6-4d6d-b858-cd7d4cf0fe87 ended session
+2023/02/25 14:50:50 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:50:50 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:50:50 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:51:43 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:51:52 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 1dcfe122-6811-4411-84a7-35172b4a169e
+2023/02/25 14:51:52 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:51:52 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 1dcfe122-6811-4411-84a7-35172b4a169e, just logged in...
+2023/02/25 14:51:52 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:51:52 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 1dcfe122-6811-4411-84a7-35172b4a169e ended session
+2023/02/25 14:51:52 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 1dcfe122-6811-4411-84a7-35172b4a169e ended session
+2023/02/25 14:51:52 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:51:52 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:52:42 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:52:44 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:52:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: b2734c20-93e3-4031-b4b9-c930ffc39a60
+2023/02/25 14:52:46 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:52:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: b2734c20-93e3-4031-b4b9-c930ffc39a60, just logged in...
+2023/02/25 14:52:46 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:52:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id b2734c20-93e3-4031-b4b9-c930ffc39a60 ended session
+2023/02/25 14:52:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id b2734c20-93e3-4031-b4b9-c930ffc39a60 ended session
+2023/02/25 14:52:46 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:52:46 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:52:46 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:54:23 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:54:27 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:54:29 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 05dd7faa-a45c-4009-8345-5ac4e05fb745
+2023/02/25 14:54:29 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:54:29 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 05dd7faa-a45c-4009-8345-5ac4e05fb745, just logged in...
+2023/02/25 14:54:29 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:54:29 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 05dd7faa-a45c-4009-8345-5ac4e05fb745 ended session
+2023/02/25 14:54:29 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 05dd7faa-a45c-4009-8345-5ac4e05fb745 ended session
+2023/02/25 14:54:29 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:54:29 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:54:29 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:54:55 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:55:12 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:55:14 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: a9e58a70-98e7-4504-8b2d-b9742ee88fc9
+2023/02/25 14:55:14 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:55:14 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: a9e58a70-98e7-4504-8b2d-b9742ee88fc9, just logged in...
+2023/02/25 14:55:14 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:55:14 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id a9e58a70-98e7-4504-8b2d-b9742ee88fc9 ended session
+2023/02/25 14:55:14 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id a9e58a70-98e7-4504-8b2d-b9742ee88fc9 ended session
+2023/02/25 14:55:14 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:55:14 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:55:19 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:55:21 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 6dd2e7d4-48a5-4091-980e-2303f4707dcc
+2023/02/25 14:55:21 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:55:21 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 6dd2e7d4-48a5-4091-980e-2303f4707dcc, just logged in...
+2023/02/25 14:55:21 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:55:21 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 6dd2e7d4-48a5-4091-980e-2303f4707dcc ended session
+2023/02/25 14:55:21 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 6dd2e7d4-48a5-4091-980e-2303f4707dcc ended session
+2023/02/25 14:55:21 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:55:21 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:55:24 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:56:12 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:57:43 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:57:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: f49a3f3f-5503-42c2-bf63-28c739d5fcab
+2023/02/25 14:57:46 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:57:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: f49a3f3f-5503-42c2-bf63-28c739d5fcab, just logged in...
+2023/02/25 14:57:46 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:57:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id f49a3f3f-5503-42c2-bf63-28c739d5fcab ended session
+2023/02/25 14:57:46 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id f49a3f3f-5503-42c2-bf63-28c739d5fcab ended session
+2023/02/25 14:57:46 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:57:46 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:57:46 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:58:37 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:58:37 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:58:38 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:58:38 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 14:58:41 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 0bb8b20f-1105-4933-aba2-64d011293f3a
+2023/02/25 14:58:41 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 14:58:41 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 0bb8b20f-1105-4933-aba2-64d011293f3a, just logged in...
+2023/02/25 14:58:41 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 14:58:41 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 0bb8b20f-1105-4933-aba2-64d011293f3a ended session
+2023/02/25 14:58:41 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 0bb8b20f-1105-4933-aba2-64d011293f3a ended session
+2023/02/25 14:58:41 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:58:41 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 19): http: named cookie not present
+2023/02/25 14:58:41 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 15:00:09 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 15:00:11 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 35eb2efe-c4b2-44ae-bc2f-4c3044a87db7
+2023/02/25 15:00:11 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 15:00:11 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 35eb2efe-c4b2-44ae-bc2f-4c3044a87db7, just logged in...
+2023/02/25 15:00:11 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 15:00:30 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:00:31 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:00:32 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:00:32 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:00:35 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:00:36 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignOut.go, line: 44): User with id 35eb2efe-c4b2-44ae-bc2f-4c3044a87db7 ended session
+2023/02/25 15:00:40 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 15:00:41 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 15:00:42 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 15:00:43 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 15:00:45 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 15:00:48 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 0cdef424-e0ec-43a5-916f-92c7f2f2fed4
+2023/02/25 15:00:48 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 15:00:48 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 0cdef424-e0ec-43a5-916f-92c7f2f2fed4, just logged in...
+2023/02/25 15:00:48 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 15:00:49 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:01:00 [token=0cdef424-e0ec-43a5-916f-92c7f2f2fed4]
+2023/02/25 15:01:00 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CreatePost.go, line: 90): New Post Created by: 0cdef424-e0ec-43a5-916f-92c7f2f2fed4
+2023/02/25 15:01:05 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:06:42 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:06:43 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:06:44 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:07:11 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:08:20 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:08:47 [token=0cdef424-e0ec-43a5-916f-92c7f2f2fed4]
+2023/02/25 15:08:48 [token=0cdef424-e0ec-43a5-916f-92c7f2f2fed4]
+2023/02/25 15:08:50 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:22:52 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:27:44 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:27:44 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:27:47 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:50:15 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 15:54:00 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).CheckToken (CheckToken.go:46)
+2023/02/25 16:10:56 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 16:11:02 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/database/execute/checkPassword.go, line: 14): sql: no rows in result set
+2023/02/25 16:11:06 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: f229134d-5762-4dfd-80a4-b695a1594f41
+2023/02/25 16:11:06 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 16:11:06 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: f229134d-5762-4dfd-80a4-b695a1594f41, just logged in...
+2023/02/25 16:11:06 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
+2023/02/25 17:12:50 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 17:12:52 [ERROR] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/CheckToken.go, line: 20): http: named cookie not present
+2023/02/25 17:13:03 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 93): Token created: 4c14476d-d9e3-41f7-a848-7407b7317c16
+2023/02/25 17:13:03 net/http: invalid Cookie.Domain "http://localhost:8080"; dropping domain attribute
+2023/02/25 17:13:03 [INFO] (file: /home/raikvaza/Documents/forum/backend/internal/handlers/SignIn.go, line: 72): User with token: 4c14476d-d9e3-41f7-a848-7407b7317c16, just logged in...
+2023/02/25 17:13:03 http: superfluous response.WriteHeader call from forum-backend/internal/handlers.(*apiServer).SignInHandler (SignIn.go:78)
